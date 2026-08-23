@@ -7,7 +7,7 @@
 
 Interpretable hierarchical machine learning for small-sample prediction of surface and tribological responses in electrical discharge machining.
 
-![EDM Banner](docs/figures/EDM_Banner.png)
+![EDM Banner](/docs/figures/EDM_Banner.png)
 
 Reproducible analysis code for the three-stage EDM dataset:
 
