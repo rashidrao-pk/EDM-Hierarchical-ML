@@ -221,4 +221,7 @@ __marimo__/
 results
 
 # Data files
-/data/raw/
+# Keep the data directory structure, but do not track its contents.
+/data/**
+!/data/**/
+!/data/**/.gitkeep
