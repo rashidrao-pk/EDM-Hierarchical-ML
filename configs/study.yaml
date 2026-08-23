@@ -1,0 +1,25 @@
+seed: 42
+data:
+  type1: data/raw/Type_1_numeric_data.xlsx
+  type2: data/raw/Type_2_numeric_data.xlsx
+  type3: data/raw/Type_3_numeric_data.xlsx
+  images_docx: data/raw/Images_base_data.docx
+output_dir: results
+bootstrap_iterations: 2000
+tasks:
+  level1:
+    features: [I, E, D]
+    targets: [Ra, Hm, hc]
+  level2:
+    features: [I, E, D, Ra, Hm, hc]
+    targets: [Ff, COF, Wd, T, WL]
+  level3:
+    features: [I, E, D, Ra, Hm, hc, Ff, COF, Wd, T, WL]
+    targets: [Keff]
+  direct:
+    features: [I, E, D]
+    targets: [Ra, Hm, hc, Ff, COF, Wd, T, WL, Keff]
+optimization:
+  minimize: [Ra, COF, Wd, T, WL]
+  maximize: [Hm, hc, Keff]
+
