@@ -1,6 +1,13 @@
 # EDM-Hierarchical-ML
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Last commit](https://img.shields.io/github/last-commit/rashidrao-pk/EDM-Hierarchical-ML.svg)](https://github.com/rashidrao-pk/EDM-Hierarchical-ML/commits/main)
+
 Interpretable hierarchical machine learning for small-sample prediction of surface and tribological responses in electrical discharge machining.
+
+![EDM Banner](/docs/figures/EDM_Banner.png)
 
 Reproducible analysis code for the three-stage EDM dataset:
 
@@ -70,7 +77,7 @@ For a paper, report MAE, RMSE, R2, normalized MAE, and bootstrap 95% confidence
 intervals. Negative cross-validated R2 is a valid result and should not be
 removed.
 
-## Suggested paper framing
+<!-- ## Suggested paper framing
 
 **Interpretable Hierarchical Machine Learning and Multi-objective Optimization
 for EDM Surface and Tribological Performance under Small-data Constraints**
@@ -79,4 +86,4 @@ The strongest contribution is methodological reliability under a very small
 designed experiment, not model complexity. Before submission, add experimental
 replicates or new operating conditions, document all units, resolve the
 hardness conversion, define `hc` and `Keff` precisely, and link every original
-SEM/EDS image to its experimental row.
+SEM/EDS image to its experimental row. -->
